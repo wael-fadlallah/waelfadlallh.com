@@ -94,3 +94,51 @@ body {
 .editor-status-text {
   @apply font-mono text-[10px] text-text-muted;
 }
+
+.prose {
+  @apply font-body text-[15px] leading-[1.8] text-text-secondary;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  @apply font-mono font-bold text-text-primary;
+}
+
+.prose h2 {
+  @apply mt-10 mb-4 text-xl;
+}
+
+.prose h3 {
+  @apply mt-8 mb-3 text-lg;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose strong {
+  @apply font-bold text-text-primary;
+}
+
+.prose a {
+  @apply text-accent-yellow underline;
+}
+
+.prose ul,
+.prose ol {
+  @apply mb-4 ml-6 list-disc;
+}
+
+.prose ol {
+  @apply list-decimal;
+}
+
+.prose li {
+  @apply mb-1;
+}
+
+.prose hr {
+  @apply my-8 border-text-muted/30;
+}
