@@ -1,1 +1,96 @@
 @import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #141419;
+  --color-bg-surface: #1E1E26;
+  --color-bg-card: #2A2A35;
+
+  --color-accent-yellow: #D4F34E;
+  --color-accent-orange: #F97316;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #8E8E93;
+  --color-text-muted: #636369;
+  --color-text-dark: #141419;
+
+  --font-mono: var(--font-jetbrains-mono);
+  --font-body: var(--font-ibm-plex-mono);
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-md bg-accent-yellow px-5 py-2.5 font-mono text-xs font-medium text-text-dark;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center rounded-lg border border-text-muted px-7 py-3.5 font-mono text-sm text-text-secondary;
+}
+
+.hero-section {
+  @apply flex flex-1 items-start pt-25;
+}
+
+.hero-container {
+  @apply mx-auto flex w-full max-w-300 flex-col gap-16 px-10 lg:flex-row lg:items-start;
+}
+
+.hero-content {
+  @apply flex w-full flex-col gap-8 lg:w-140 lg:shrink-0;
+}
+
+.hero-heading {
+  @apply block font-mono text-[42px] font-bold leading-tight;
+}
+
+.hero-description {
+  @apply max-w-130 font-body text-[15px] leading-[1.7] text-text-muted;
+}
+
+.available-badge {
+  @apply flex items-center gap-2 self-start rounded-full border border-bg-card bg-bg-surface px-4 py-2;
+}
+
+.available-badge-text {
+  @apply font-mono text-[13px] text-accent-yellow;
+}
+
+.pulse-dot-wrapper {
+  @apply relative flex h-3 w-3 items-center justify-center;
+}
+
+.pulse-dot-ring {
+  @apply absolute h-3 w-3 animate-pulse rounded-full bg-accent-yellow opacity-30;
+}
+
+.pulse-dot {
+  @apply h-2 w-2 rounded-full bg-accent-yellow;
+}
+
+.window-dot {
+  @apply h-2.5 w-2.5 rounded-full;
+}
+
+.editor-tab {
+  @apply flex items-center gap-1.5 px-3.5 py-2;
+}
+
+.editor-tab-label {
+  @apply font-mono text-[11px];
+}
+
+.editor-line-number {
+  @apply font-mono text-[11px] text-right;
+}
+
+.editor-code-text {
+  @apply font-mono text-[11px];
+}
+
+.editor-status-text {
+  @apply font-mono text-[10px] text-text-muted;
+}
