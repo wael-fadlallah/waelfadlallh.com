@@ -17,9 +17,6 @@ interface SupportEmailProps {
   issueDescription: string;
 }
 
-const baseURL =
-  process.env.NODE_ENV === "production" ? "https://www.waelfadlallh.com" : "";
-
 export default function SupportEmailTemplate({
   email,
   subject,
