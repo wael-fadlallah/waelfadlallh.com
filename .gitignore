@@ -44,3 +44,6 @@ next-env.d.ts
 design
 
 .claude
+
+# Email templates
+/templates/node_modules
