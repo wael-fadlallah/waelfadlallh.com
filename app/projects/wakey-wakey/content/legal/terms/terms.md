@@ -3,36 +3,40 @@ title: Terms & Conditions
 lastUpdated: 2026-02-10
 ---
 
-These terms and conditions apply to the Wakey Wakey Alarm app (hereby referred to as "Application") for mobile devices that was created by Wael Fadlallh (hereby referred to as "Service Provider") as a Free service.
+These terms and conditions apply to the **Wakey Wakey Alarm** app ("Application") created by **Wael Fadlallh** ("Service Provider") as a Free service. By downloading or using the Application, you automatically agree to these terms.
 
-Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application.
+### 1. License and Intellectual Property
 
-Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.
+- **Usage:** You are granted a non-transferable license to use this Application on Apple-branded products that you own or control.
+- **Restrictions:** You may not copy, modify, or attempt to extract the source code of the Application. All trademarks, copyrights, and intellectual property rights related to Wakey Wakey Alarm remain the property of the Service Provider.
+- **Third-Party Rights:** This Application utilizes Apple’s **AlarmKit** and **Expo** frameworks. All rights to those respective technologies belong to their owners.
 
-The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.
+### 2. Service Performance and Alarms
 
-The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advise against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.
+- **Reliability:** While the Application is designed to be a reliable alarm service using native iOS 26 frameworks, the Service Provider cannot guarantee that the alarm will fire in all circumstances (e.g., hardware failure, battery depletion, or incorrect system settings).
+- **User Responsibility:** It is your responsibility to ensure your device is sufficiently charged, the volume is audible, and that "Critical Alerts" permissions are enabled for the Application.
+- **Internet Connection:** While the core alarm functions work offline, some features (like initial setup or updates) may require an active internet connection. The Service Provider is not responsible for data charges incurred.
 
-Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:
+### 3. Data and Privacy
 
-- [Expo](https://expo.io/terms)
+- **Local Processing:** The Application processes your name and alarm settings **locally on your device**.
+- **Security:** You are responsible for maintaining the security of your device. We strongly advise against "jailbreaking" or "rooting" your device, as this can compromise the Application's ability to fire alarms and secure your local data.
 
-Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.
+### 4. Third-Party Terms
 
-If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.
+The Application utilizes third-party services. By using Wakey Wakey, you also agree to the terms of:
 
-Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.
+- [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+- [Expo Terms of Service](https://expo.io/terms)
 
-In terms of the Service Provider's responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the application.
+### 5. Termination and Updates
 
-The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.
+The Service Provider reserves the right to modify or discontinue the Application at any time. You agree to accept updates to the Application to ensure continued compatibility with iOS 26 and later. Upon termination, your rights to use the Application will end, and you must delete the Application from your device.
 
-**Changes to These Terms and Conditions**
+### 6. Limitation of Liability
 
-The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.
+To the maximum extent permitted by law, the Service Provider shall not be liable for any direct or indirect loss (such as missed appointments or loss of income) resulting from the use or failure of the Application.
 
-These terms and conditions are effective as of 2026-02-14
+### 7. Contact Us
 
-**Contact Us**
-
-If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at wael.fudlallah@gmail.com.
+For questions or suggestions, contact the Service Provider at **wael.fudlallah@gmail.com**.
