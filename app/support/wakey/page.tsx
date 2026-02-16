@@ -38,7 +38,7 @@ export default function WakeySupportPage() {
           <p className="max-w-lg font-body text-[15px] leading-[1.7] text-text-muted">
             Having trouble with{" "}
             <span className="font-medium text-accent-yellow">
-              Wakey Wakey Alarm
+              Wakey: Wake Up Alarms
             </span>
             ? No worries — drop us a message and we&apos;ll get back to you as
             soon as we can. Bug reports, feature ideas, or just saying hi — all
