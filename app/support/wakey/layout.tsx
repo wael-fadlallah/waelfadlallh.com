@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support — Wakey Wakey Alarm",
+  title: "Support — Wakey: Wake Up Alarms",
   description:
-    "Get help with Wakey Wakey Alarm. Report bugs, request features, or ask questions.",
+    "Get help with Wakey: Wake Up Alarms. Report bugs, request features, or ask questions.",
 };
 
 export default function WakeySupportLayout({

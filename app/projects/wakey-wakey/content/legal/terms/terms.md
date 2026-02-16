@@ -3,12 +3,12 @@ title: Terms & Conditions
 lastUpdated: 2026-02-10
 ---
 
-These terms and conditions apply to the **Wakey Wakey Alarm** app ("Application") created by **Wael Fadlallh** ("Service Provider") as a Free service. By downloading or using the Application, you automatically agree to these terms.
+These terms and conditions apply to the **Wakey: Wake Up Alarms** app ("Application") created by **Wael Fadlallh** ("Service Provider") as a Free service. By downloading or using the Application, you automatically agree to these terms.
 
 ### 1. License and Intellectual Property
 
 - **Usage:** You are granted a non-transferable license to use this Application on Apple-branded products that you own or control.
-- **Restrictions:** You may not copy, modify, or attempt to extract the source code of the Application. All trademarks, copyrights, and intellectual property rights related to Wakey Wakey Alarm remain the property of the Service Provider.
+- **Restrictions:** You may not copy, modify, or attempt to extract the source code of the Application. All trademarks, copyrights, and intellectual property rights related to Wakey: Wake Up Alarms remain the property of the Service Provider.
 - **Third-Party Rights:** This Application utilizes Apple’s **AlarmKit** and **Expo** frameworks. All rights to those respective technologies belong to their owners.
 
 ### 2. Service Performance and Alarms

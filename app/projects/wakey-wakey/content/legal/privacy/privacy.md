@@ -3,7 +3,7 @@ title: Privacy Policy
 lastUpdated: 2026-02-15
 ---
 
-This privacy policy applies to the Wakey Wakey Alarm (hereby referred to as "Application") for mobile devices that was created by Wael Fadlallh (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+This privacy policy applies to the Wakey: Wake Up Alarms (hereby referred to as "Application") for mobile devices that was created by Wael Fadlallh (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
 
 ### 1. Information Collection and Use
 
