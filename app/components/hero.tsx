@@ -1,18 +1,26 @@
 import { CodeEditor } from "./code-editor";
+import RippleGrid from "@/components/RippleGrid";
 
-const _AvailableForWorkCta = () => (
-  <div className="available-badge">
-    <span className="pulse-dot-wrapper">
-      <span className="pulse-dot-ring" />
-      <span className="pulse-dot" />
-    </span>
-    <span className="available-badge-text">available for work</span>
-  </div>
-);
+const RIPPLE_GRID_CONFIG = {
+  enableRainbow: false,
+  gridColor: "#D4F34E", // --color-accent-yellow
+  rippleIntensity: 0.01,
+  gridSize: 15,
+  gridThickness: 50,
+  fadeDistance: 0.5,
+  vignetteStrength: 5,
+  glowIntensity: 1,
+  opacity: 0.25,
+  gridRotation: 40,
+  mouseInteractionRadius: 2,
+} as const;
 
 export function Hero() {
   return (
     <section aria-label="Hero" className="hero-section">
+      <div className="absolute inset-0 w-full h-full pointer-events-none">
+        <RippleGrid {...RIPPLE_GRID_CONFIG} mouseInteraction />
+      </div>
       <div className="hero-container">
         <div className="hero-content">
           <h1>
@@ -32,7 +40,7 @@ export function Hero() {
 
           <div className="pt-4">
             <a
-              href="/docs/Wael Fadlallh.pdf"
+              href="/docs/Wael%20Fadlallh.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
