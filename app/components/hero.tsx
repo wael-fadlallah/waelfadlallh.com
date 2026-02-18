@@ -11,7 +11,7 @@ const RIPPLE_GRID_CONFIG = {
   vignetteStrength: 5,
   glowIntensity: 1,
   opacity: 0.25,
-  gridRotation: 40,
+  gridRotation: 0,
   mouseInteractionRadius: 2,
 } as const;
 

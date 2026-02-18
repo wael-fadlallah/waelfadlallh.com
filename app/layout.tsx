@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import ClickSpark from "@/components/ClickSpark";
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${jetbrainsMono.variable} ${ibmPlexMono.variable} antialiased`}
       >
+        <ClickSpark />
         {children}
       </body>
     </html>

@@ -257,10 +257,28 @@ body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@keyframes spark-out {
+  0% {
+    transform: rotate(var(--spark-angle)) translateY(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(var(--spark-angle)) translateY(-28px) scale(0);
+    opacity: 0;
+  }
+}
+
+.spark-particle {
+  @apply absolute h-2 w-0.75 rounded-sm bg-accent-yellow;
+  animation: spark-out 400ms ease-out forwards;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
