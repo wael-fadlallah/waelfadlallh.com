@@ -33,9 +33,9 @@ export function Hero() {
           </h1>
 
           <p className="hero-description">
-            Frontend engineer crafting fast, accessible, and visually compelling
-            web experiences. Currently obsessed with motion, micro-interactions,
-            and design systems.
+            Software Engineer. Crafting accessible, high-performance user
+            interfaces with a focus on motion engineering, micro-interactions,
+            and design system architecture
           </p>
 
           <div className="pt-4">
