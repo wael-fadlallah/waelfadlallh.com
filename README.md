@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# wael.fudlallh.com 🚧
 
-## Getting Started
+```
+    ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗    ██╗███╗   ██╗
+    ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝    ██║████╗  ██║
+    ██║ █╗ ██║██║   ██║██████╔╝█████╔╝     ██║██╔██╗ ██║
+    ██║███╗██║██║   ██║██╔══██╗██╔═██╗     ██║██║╚██╗██║
+    ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗    ██║██║ ╚████║
+     ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝╚═╝  ╚═══╝
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+██████╗ ██████╗  ██████╗  ██████╗ ██████╗ ███████╗███████╗███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔════╝ ██╔══██╗██╔════╝██╔════╝██╔════╝
+██████╔╝██████╔╝██║   ██║██║  ███╗██████╔╝█████╗  ███████╗███████╗
+██╔═══╝ ██╔══██╗██║   ██║██║   ██║██╔══██╗██╔══╝  ╚════██║╚════██║
+██║     ██║  ██║╚██████╔╝╚██████╔╝██║  ██║███████╗███████║███████║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> "It'll be done soon."
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What's going on here?
 
-## Learn More
+My personal corner of the internet is currently being **aggressively caffeinated and rebuilt from scratch**.
 
-To learn more about Next.js, take a look at the following resources:
+Think of it less like a website and more like a construction site — there are hard hats, someone is definitely playing music too loud, and at least one thing is on fire (but in an exciting way).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Current Status
 
-## Deploy on Vercel
+| Thing                 | Status                 |
+| --------------------- | ---------------------- |
+| Big ideas             | ✅ Overflowing         |
+| Actual implementation | 🚧 In progress         |
+| Design                | 🔄 Constantly changing |
+| Launch date           | 📅 "Soon"              |
+| Coffee consumed       | ☕ Yes                 |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack (so far)
+
+- **Next.js 16** — because why not live on the edge
+- **TypeScript** — because I enjoy being yelled at by a compiler
+- **Tailwind CSS** — utility-first and proud of it
+- **Bun** — for when `npm install` is just too slow for your chaotic energy
+
+---
+
+## Can I see it?
+
+Not yet. But when it's ready, it'll be at **[wael.fudlallh.com](https://wael.fudlallh.com)** — probably looking way cooler than this README suggests.
+
+---
