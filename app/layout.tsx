@@ -1,23 +1,35 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono, IBM_Plex_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import "./globals.css";
-import ClickSpark from "@/components/ClickSpark";
+import { Grain } from "./components/grain";
+import { ThemeManager } from "./components/theme-manager";
 
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
+const geist = Geist({
+  variable: "--font-geist",
+  weight: ["300", "400", "500", "600"],
   subsets: ["latin"],
+  display: "swap",
 });
 
-const ibmPlexMono = IBM_Plex_Mono({
-  variable: "--font-ibm-plex-mono",
-  weight: ["400", "500", "700"],
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  weight: ["400", "500"],
   subsets: ["latin"],
+  display: "swap",
+});
+
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument-serif",
+  weight: "400",
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Wael Fudlallh",
+  title: "Wael Fadlallh — Senior Front-End Engineer",
   description:
-    "Frontend engineer crafting fast, accessible, and visually compelling web experiences.",
+    "Senior Front-End Engineer crafting financial products used by millions across the UAE & Egypt — building considered interfaces in React, React Native and TypeScript.",
 };
 
 export default function RootLayout({
@@ -26,11 +38,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${jetbrainsMono.variable} ${ibmPlexMono.variable} antialiased`}
-      >
-        <ClickSpark />
+    <html
+      lang="en"
+      className={`${geist.variable} ${geistMono.variable} ${instrumentSerif.variable}`}
+    >
+      <body data-theme="dark" data-accent="lime">
+        <ThemeManager />
+        <Grain />
         {children}
       </body>
     </html>
