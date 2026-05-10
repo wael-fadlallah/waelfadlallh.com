@@ -1,13 +1,23 @@
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
+import { SelectedWork } from "./components/selected-work";
+import { Toolbox } from "./components/toolbox";
+import { Recognition } from "./components/recognition";
+import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <>
       <Header />
-      <main className="flex flex-1 flex-col">
+      <main id="top">
         <Hero />
+        <SelectedWork />
+        <Toolbox />
+        <Recognition />
+        <Contact />
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
