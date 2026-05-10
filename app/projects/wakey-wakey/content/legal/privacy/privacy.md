@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-lastUpdated: 2026-02-15
+lastUpdated: 2026-03-08
 ---
 
 This privacy policy applies to the Wakey: Wake Up Alarms (hereby referred to as "Application") for mobile devices that was created by Wael Fadlallh (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
@@ -20,6 +20,7 @@ To provide a personalized experience, the Application includes an optional onboa
 Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application. We utilize:
 
 - **Expo:** Used for framework stability and performance monitoring. Please refer to [Expo's Privacy Policy](https://expo.io/privacy) for details.
+- **Sentry.io:** Used for real-time error monitoring and crash diagnostics. This helps us identify and fix bugs to ensure app stability. Sentry collects technical data (such as device model and stack traces) but is configured to **not** collect any personally identifiable information (PII). Please refer to [Sentry's Privacy Policy](https://sentry.io/privacy/) for details.
 
 We do not share your personal information with third parties for marketing or advertising purposes.
 
@@ -30,11 +31,11 @@ We do not share your personal information with third parties for marketing or ad
 
 ### 4. Children's Privacy
 
-The Application does not knowingly collect personally identifiable information from children under 13 years of age. As the Application stores data locally and does not send it to a server, we do not have access to any data provided by children.
+The Application does not knowingly collect personally identifiable information from children under 13 years of age. As the Application stores data locally and diagnostic data is anonymized, we do not have access to any personal data provided by children.
 
 ### 5. Security
 
-We prioritize the security of your information. By storing your name locally on your device rather than on a cloud server, we eliminate the risk of server-side data breaches or unauthorized remote access.
+We prioritize the security of your information. By storing your name locally on your device rather than on a cloud server, we eliminate the risk of server-side data breaches. For any technical diagnostic data transmitted to our service providers, we use industry-standard encryption to ensure safe transit.
 
 ### 6. Contact Us
 
