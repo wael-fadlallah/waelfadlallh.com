@@ -24,9 +24,9 @@ export function Hero() {
 
       <div className="hero__intro">
         <p className="hero__lede">
-          Senior Front-End Engineer crafting <em>financial&nbsp;products</em>{" "}
-          used by millions across the UAE&nbsp;&amp; Egypt — building considered
-          interfaces in <span className="kbd">React</span>,{" "}
+          Senior Front-End Engineer. I build banking apps that millions of
+          people across the <em>UAE&nbsp;and Egypt</em> actually use — mostly
+          in <span className="kbd">React</span>,{" "}
           <span className="kbd">React&nbsp;Native</span> and{" "}
           <span className="kbd">TypeScript</span>.
         </p>

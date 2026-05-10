@@ -44,7 +44,7 @@ const CASES: Case[] = [
         label: "Project 01 · Web",
         title: (
           <>
-            Mashreq <em>NEO</em> — Account Fulfillment
+            Mashreq — <em>Account Fulfillment</em>
           </>
         ),
         metric: "10K+",
@@ -58,10 +58,9 @@ const CASES: Case[] = [
         metricVariant: "primary",
         copy: (
           <>
-            Headed the development of a customer account-fulfillment web app in{" "}
-            <em>React</em>, <em>TypeScript</em> and <em>Redux</em>, streamlining
-            account opening operations and cutting processing time across the
-            bank.
+            Led the build of NEO&apos;s customer account-fulfillment web app.{" "}
+            <em>React</em>, <em>TypeScript</em>, <em>Redux</em>. Now powers
+            every account opened at the bank.
           </>
         ),
       },
@@ -69,7 +68,7 @@ const CASES: Case[] = [
         label: "Project 02 · Mobile",
         title: (
           <>
-            e&amp;Mashreq <em>Egypt</em> — Digital Onboarding
+            Mashreq — <em>Digital Onboarding</em>
           </>
         ),
         metric: "700K+",
@@ -83,9 +82,9 @@ const CASES: Case[] = [
         metricVariant: "alt",
         copy: (
           <>
-            Implemented core <em>KYC</em> and <em>document-upload</em> flows for
-            Mashreq Egypt&apos;s mobile onboarding journey, enabling seamless
-            sign-up for over seven hundred thousand new customers.
+            Built onboarding journey that included <em>KYC</em> and
+            <em>document-upload</em> flows in Mashreq Egypt&apos;s mobile
+            onboarding. 700K+ people have signed up through it.
           </>
         ),
       },
@@ -108,11 +107,10 @@ const CASES: Case[] = [
     time: "Mar 2021 — Jun 2022",
     copy: (
       <>
-        Built dynamic, SEO-optimised web applications for marketing and
-        e-commerce clients in <em>React</em>, <em>Node.js</em> and{" "}
-        <em>Express</em>; contributed Android features in <em>Kotlin</em>; and
-        integrated <em>Microsoft Azure</em> Functions, App Services and Cosmos
-        DB for real-time data and auth.
+        Built marketing and e-commerce sites for clients in <em>React</em>,{" "}
+        <em>Node.js</em> and <em>Express</em>. Shipped Android features in{" "}
+        <em>Kotlin</em>. Wired up <em>Microsoft Azure</em> (Functions, App
+        Services, Cosmos DB) for data and auth.
       </>
     ),
     tags: ["React", "Node.js", "Kotlin", "Azure", "SEO"],
@@ -125,10 +123,9 @@ const CASES: Case[] = [
     time: "Jan 2018 — Apr 2021",
     copy: (
       <>
-        Led end-to-end development of multiple web applications across fintech
-        and service domains in <em>JavaScript</em>, <em>React</em> and{" "}
-        <em>Node.js</em> — championing Agile practice with Confluence, Jira and
-        daily stand-ups.
+        Shipped web apps in <em>JavaScript</em>, <em>React</em> and{" "}
+        <em>Node.js</em> — mostly fintech. First job where I owned the Jira
+        board and the stand-up, not just attended them.
       </>
     ),
     tags: ["JavaScript", "React", "Node.js", "Agile"],
@@ -227,7 +224,7 @@ export function SelectedWork() {
             <GroupCase key={c.num} data={c} />
           ) : (
             <SingleCaseCard key={c.num} data={c} />
-          )
+          ),
         )}
       </ol>
     </section>

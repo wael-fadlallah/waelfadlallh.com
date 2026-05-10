@@ -17,8 +17,8 @@ const AWARDS: Award[] = [
     ),
     copy: (
       <>
-        Honored for contributions to the successful launch of Mashreq NEO and
-        e&amp;Mashreq NEO platforms, enhancing digital banking services.
+        Recognized for shipping work on the Mashreq NEO and e&amp;Mashreq NEO
+        launches.
       </>
     ),
   },
@@ -31,8 +31,7 @@ const AWARDS: Award[] = [
     ),
     copy: (
       <>
-        Recognised for outstanding performance delivering key projects and
-        contributing to team success.
+        An internal Mashreq award for delivery on the projects I led that year.
       </>
     ),
   },
