@@ -198,7 +198,7 @@ function SingleCaseCard({ data }: { data: SingleCase }) {
   return (
     <li className="case">
       <CaseHead {...data} />
-      <div className="case__body case__body--single">
+      <div className="case__body">
         <p className="case__copy case__copy--wide">{data.copy}</p>
         <CaseTags tags={data.tags} />
       </div>

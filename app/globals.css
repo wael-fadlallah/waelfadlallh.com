@@ -381,7 +381,7 @@ svg {
    hero
    ============================================================ */
 .hero {
-  padding: clamp(60px, 12vw, 140px) var(--rail) clamp(40px, 8vw, 96px);
+  padding: clamp(24px, 3vw, 48px) var(--rail) clamp(40px, 8vw, 96px);
   max-width: var(--maxw);
   margin: 0 auto;
   position: relative;
@@ -395,9 +395,8 @@ svg {
   justify-content: space-between;
   align-items: baseline;
   letter-spacing: 0.04em;
-  border-top: 1px solid var(--border-subtle);
-  padding-top: 14px;
-  margin-bottom: clamp(32px, 5vw, 64px);
+  padding-top: 4px;
+  margin-bottom: clamp(20px, 3vw, 36px);
 }
 
 .hero__meta-time::before {
@@ -419,7 +418,7 @@ svg {
   display: block;
 }
 
-.hero__line--indent {
+.hero__line:nth-child(2) {
   padding-left: clamp(40px, 8vw, 140px);
 }
 
@@ -541,7 +540,7 @@ svg {
     grid-template-columns: 1fr;
   }
 
-  .hero__line--indent {
+  .hero__line:nth-child(2) {
     padding-left: 24px;
   }
 }
@@ -641,7 +640,7 @@ svg {
 }
 
 .section--alt>* {
-  max-width: var(--maxw);
+  max-width: calc(var(--maxw) - 2 * var(--rail));
   margin-left: auto;
   margin-right: auto;
 }
@@ -798,7 +797,8 @@ svg {
   padding-top: 28px;
 }
 
-.case__body--single {
+/* cases without a metric column (Inceptive & Revo) */
+.case:nth-child(n + 2):not(.case--group) .case__body {
   grid-template-columns: 1fr;
 }
 
@@ -1065,7 +1065,7 @@ svg {
    ============================================================ */
 .awards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
 
@@ -1278,11 +1278,11 @@ svg {
   animation-delay: 0.05s;
 }
 
-.hero__line:nth-child(1) {
+.hero__line:nth-child(2) {
   animation-delay: 0.18s;
 }
 
-.hero__line:nth-child(2) {
+.hero__line:nth-child(3) {
   animation-delay: 0.32s;
 }
 

@@ -30,11 +30,7 @@ const TOOL_GROUPS: { label: string; items: string[] }[] = [
 export function Toolbox() {
   return (
     <section id="toolbox" className="section section--alt">
-      <SectionHead
-        index="03"
-        title={<em>Toolbox</em>}
-        meta="day-to-day"
-      />
+      <SectionHead index="03" title={<em>Toolbox</em>} meta="Skill Arsenal" />
       <div className="tools">
         {TOOL_GROUPS.map((group) => (
           <div key={group.label} className="tools__group">
