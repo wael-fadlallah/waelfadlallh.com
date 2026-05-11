@@ -35,15 +35,6 @@ const AWARDS: Award[] = [
       </>
     ),
   },
-  {
-    year: "2018",
-    title: (
-      <>
-        B.Sc. <em>Information Technology</em>
-      </>
-    ),
-    copy: <>Network management — Sudan International University.</>,
-  },
 ];
 
 export function Recognition() {
