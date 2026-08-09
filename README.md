@@ -26,19 +26,7 @@ My personal corner of the internet is currently being **aggressively caffeinated
 
 Think of it less like a website and more like a construction site — there are hard hats, someone is definitely playing music too loud, and at least one thing is on fire (but in an exciting way).
 
----
 
-## Current Status
-
-| Thing                 | Status                 |
-| --------------------- | ---------------------- |
-| Big ideas             | ✅ Overflowing         |
-| Actual implementation | 🚧 In progress         |
-| Design                | 🔄 Constantly changing |
-| Launch date           | 📅 "Soon"              |
-| Coffee consumed       | ☕ Yes                 |
-
----
 
 ## Tech Stack (so far)
 
@@ -47,10 +35,3 @@ Think of it less like a website and more like a construction site — there are 
 - **Tailwind CSS** — utility-first and proud of it
 - **Bun** — for when `npm install` is just too slow for your chaotic energy
 
----
-
-## Can I see it?
-
-Not yet. But when it's ready, it'll be at **[wael.fudlallh.com](https://wael.fudlallh.com)** — probably looking way cooler than this README suggests.
-
----
