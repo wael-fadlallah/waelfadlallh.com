@@ -1,17 +1,19 @@
 import { DubaiClock } from "./dubai-clock";
 
+export const RESUME_HREF = "/docs/Wael%20Fadlallh.pdf";
+
 const FACTS = [
   { label: "Based in", value: "Dubai, UAE" },
-  { label: "Currently", value: "Mashreq Bank" },
-  { label: "Experience", value: "~7 years" },
-  { label: "Open to", value: "Senior roles" },
+  { label: "Currently", value: "Mashreq Bank" },
+  { label: "Working since", value: "2018" },
+  { label: "Open to", value: "Senior roles" },
 ];
 
 export function Hero() {
   return (
     <section className="hero">
       <div className="hero__meta hero__meta--top" aria-hidden="true">
-        <span>{"// 01 — index"}</span>
+        <span>Senior Front-End Engineer</span>
         <DubaiClock />
       </div>
 
@@ -24,9 +26,9 @@ export function Hero() {
 
       <div className="hero__intro">
         <p className="hero__lede">
-          Senior Front-End Engineer. I build apps that millions of people across
-          the <em>UAE and Egypt</em> actually use, mostly in{" "}
-          <span className="kbd">React</span>,{" "}
+          I build the screens people go through to open a bank account. For
+          the last few years that&apos;s been at <em>Mashreq</em>, on the web
+          and on the phone, mostly in <span className="kbd">React</span>,{" "}
           <span className="kbd">React Native</span> and{" "}
           <span className="kbd">TypeScript</span>.
         </p>
@@ -41,18 +43,23 @@ export function Hero() {
         </dl>
       </div>
 
-      <a className="hero__cta" href="#work">
-        <span>See selected work</span>
-        <svg
-          viewBox="0 0 16 16"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1.5"
-          aria-hidden="true"
-        >
-          <path d="M3 8h10M9 4l4 4-4 4" />
-        </svg>
-      </a>
+      <div className="hero__actions">
+        <a className="hero__cta" href="#work">
+          <span>See the work</span>
+          <svg
+            viewBox="0 0 16 16"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            aria-hidden="true"
+          >
+            <path d="M3 8h10M9 4l4 4-4 4" />
+          </svg>
+        </a>
+        <a className="hero__link" href={RESUME_HREF} target="_blank" rel="noopener">
+          Résumé (PDF) ↗
+        </a>
+      </div>
     </section>
   );
 }

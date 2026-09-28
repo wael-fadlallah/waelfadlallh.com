@@ -3,8 +3,8 @@ import { ThemeToggle } from "./theme-toggle";
 
 const NAV_LINKS = [
   { href: "#work", label: "Work" },
-  { href: "#toolbox", label: "Toolbox" },
-  { href: "#recognition", label: "Recognition" },
+  { href: "#about", label: "About" },
+  { href: "#toolbox", label: "Tools" },
   { href: "#contact", label: "Contact" },
 ];
 

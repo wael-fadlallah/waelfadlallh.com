@@ -1,3 +1,5 @@
+import { RESUME_HREF } from "./hero";
+
 const LINKS = [
   {
     href: "https://www.linkedin.com/in/wael-fadl-allah/",
@@ -9,14 +11,19 @@ const LINKS = [
     label: "GitHub ↗",
     external: true,
   },
+  { href: RESUME_HREF, label: "Résumé (PDF) ↗", external: true },
   { href: "tel:+971523485231", label: "+971 52 348 5231", external: false },
 ];
 
 export function Contact() {
   return (
     <section id="contact" className="contact">
-      <span className="section__index">05</span>
-      <p className="contact__lede">Have a hard problem worth solving?</p>
+      <span className="section__index">04</span>
+      <p className="contact__lede">
+        Building something people will use every day?
+        <br />
+        I&apos;d like to hear about it.
+      </p>
       <a className="contact__email" href="mailto:wael.fudlallah@gmail.com">
         <span className="contact__email-text">wael.fudlallah@gmail.com</span>
         <svg
