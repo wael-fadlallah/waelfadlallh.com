@@ -77,7 +77,7 @@ const EARLIER: Role[] = [
     copy: (
       <>
         My first job. I built web apps end to end in JavaScript, React and
-        Node, mostly for fintech clients, and ended up running the team&apos;s
+        Node, mostly for B2B clients, and ended up running the team&apos;s
         Jira board and daily stand-ups.
       </>
     ),
