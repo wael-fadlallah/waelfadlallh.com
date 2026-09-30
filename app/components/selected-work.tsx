@@ -25,9 +25,9 @@ const MASHREQ: Project[] = [
     stat: { value: "700K+", label: "people signed up through it", tone: "alt" },
     copy: (
       <>
-        Mashreq Egypt&apos;s mobile onboarding. I built the KYC and
-        document-upload steps, the part of the app where you prove who you are
-        before the bank will open an account for you.
+        Mashreq Egypt&apos;s mobile onboarding. I worked across the whole
+        journey, from the first screen to an open account, including the KYC
+        and document-upload steps where you prove who you are.
       </>
     ),
   },
@@ -41,9 +41,10 @@ const MASHREQ: Project[] = [
     stat: { value: "10K+", label: "requests handled a day" },
     copy: (
       <>
-        I led the build of NEO&apos;s account-fulfillment web app, and hooked
-        it up to the verification APIs so fewer requests need someone to
-        check them by hand.
+        I led the build of NEO&apos;s account-fulfillment web app. The team
+        using it lives in it all day, so I focused on making it fast and easy
+        to move around in, and connected it to the verification APIs so
+        fewer requests need a manual check.
       </>
     ),
   },

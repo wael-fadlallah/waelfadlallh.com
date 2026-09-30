@@ -46,8 +46,7 @@ export function About() {
           <p>
             Since mid-2022 I&apos;ve been at Mashreq, building the flows
             people use to join the bank. More than 700,000 people have signed
-            up through the mobile onboarding I built the KYC and upload steps
-            for, and the fulfillment app I led handles over 10,000 requests a
+            up through the mobile onboarding journey I worked on, and the fulfillment app I led handles over 10,000 requests a
             day. At that scale every screen has to be fast, clear, and hard to
             get wrong, and that&apos;s the bar I hold my work to.
           </p>
