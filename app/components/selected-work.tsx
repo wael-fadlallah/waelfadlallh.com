@@ -171,7 +171,7 @@ export function SelectedWork() {
             Frontend Engineer · Dubai · Jun 2022 – now
           </p>
           <p className="feature__intro">
-            Two products, one goal: getting someone from &ldquo;I want an
+            Two major products, one goal: getting someone from &ldquo;I want an
             account&rdquo; to actually having one.
           </p>
         </header>
