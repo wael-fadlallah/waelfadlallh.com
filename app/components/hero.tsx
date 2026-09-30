@@ -26,9 +26,9 @@ export function Hero() {
 
       <div className="hero__intro">
         <p className="hero__lede">
-          I build the screens people go through to open a bank account. For
-          the last few years that&apos;s been at <em>Mashreq</em>, on the web
-          and on the phone, mostly in <span className="kbd">React</span>,{" "}
+          I craft the flows people use every day, and make sure nobody gets{" "}
+          <em>lost</em> in them. On the web and on the phone, mostly in{" "}
+          <span className="kbd">React</span>,{" "}
           <span className="kbd">React Native</span> and{" "}
           <span className="kbd">TypeScript</span>.
         </p>

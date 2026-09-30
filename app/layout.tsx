@@ -30,7 +30,7 @@ const instrumentSerif = Instrument_Serif({
 export const metadata: Metadata = {
   title: "Wael Fadlallh — Senior Front-End Engineer",
   description:
-    "Senior Front-End Engineer in Dubai. I build the web and mobile flows people use to open a bank account at Mashreq, mostly in React, React Native and TypeScript.",
+    "Senior Front-End Engineer in Dubai. I craft web and mobile flows people use every day without getting lost, mostly in React, React Native and TypeScript.",
 };
 
 export default function RootLayout({
