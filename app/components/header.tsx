@@ -29,10 +29,6 @@ export function Header() {
 
       <div className="nav__actions">
         <ThemeToggle />
-        <a className="contact-pill" href="mailto:wael.fudlallah@gmail.com">
-          <span className="contact-pill__dot" aria-hidden="true" />
-          <span>Available</span>
-        </a>
       </div>
     </header>
   );
