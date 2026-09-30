@@ -35,8 +35,7 @@ export function About() {
           <p>
             At Revo Tech I learned the job by doing all of it: the React app,
             the Node service behind it, and eventually the Jira board and the
-            morning stand-up. Most of our clients were in fintech, and I&apos;ve
-            stayed close to money ever since.
+            morning stand-up.
           </p>
           <p>
             In 2021 I moved to Dubai and spent a year and a bit at Inceptive,
