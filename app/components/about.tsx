@@ -45,10 +45,12 @@ export function About() {
             features, I picked up Kotlin and shipped those too.
           </p>
           <p>
-            Since mid-2022 I&apos;ve been at Mashreq, working on the flows
-            people use to join the bank. It isn&apos;t flashy work. A lot of
-            people go through those screens every day, so they have to be
-            boring in the best way: fast, clear, and hard to get wrong.
+            Since mid-2022 I&apos;ve been at Mashreq, building the flows
+            people use to join the bank. More than 700,000 people have signed
+            up through the mobile onboarding I built the KYC and upload steps
+            for, and the fulfillment app I led handles over 10,000 requests a
+            day. At that scale every screen has to be fast, clear, and hard to
+            get wrong, and that&apos;s the bar I hold my work to.
           </p>
         </div>
 
