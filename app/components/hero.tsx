@@ -2,12 +2,6 @@ import { DubaiClock } from "./dubai-clock";
 
 export const RESUME_HREF = "/docs/Wael%20Fadlallh.pdf";
 
-const FACTS = [
-  { label: "Based in", value: "Dubai, UAE" },
-  { label: "Currently", value: "Mashreq Bank" },
-  { label: "Working since", value: "2018" },
-  { label: "Open to", value: "Senior roles" },
-];
 
 export function Hero() {
   return (
@@ -32,15 +26,6 @@ export function Hero() {
           <span className="kbd">React Native</span> and{" "}
           <span className="kbd">TypeScript</span>.
         </p>
-
-        <dl className="hero__facts">
-          {FACTS.map((fact) => (
-            <div key={fact.label}>
-              <dt>{fact.label}</dt>
-              <dd>{fact.value}</dd>
-            </div>
-          ))}
-        </dl>
       </div>
 
       <div className="hero__actions">

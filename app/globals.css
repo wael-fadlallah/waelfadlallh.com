@@ -403,9 +403,6 @@ svg {
 }
 
 .hero__intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
-  gap: clamp(32px, 5vw, 80px);
   margin-top: clamp(40px, 6vw, 80px);
   padding-top: 32px;
   border-top: 1px solid var(--border-subtle);
@@ -437,32 +434,6 @@ svg {
   color: var(--text-primary);
   background: var(--bg-card);
   vertical-align: 0.08em;
-}
-
-.hero__facts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px 24px;
-  align-content: start;
-}
-
-.hero__facts>div {
-  border-top: 1px solid var(--border-subtle);
-  padding-top: 10px;
-}
-
-.hero__facts dt {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.hero__facts dd {
-  margin: 4px 0 0;
-  font-size: 15px;
-  color: var(--text-primary);
 }
 
 .hero__actions {
@@ -518,10 +489,6 @@ svg {
 }
 
 @media (max-width: 760px) {
-  .hero__intro {
-    grid-template-columns: 1fr;
-  }
-
   .hero__line:nth-child(2) {
     padding-left: 24px;
   }
