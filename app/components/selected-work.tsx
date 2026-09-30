@@ -85,12 +85,13 @@ const EARLIER: Role[] = [
   {
     years: "On the side",
     title: "Wakey: Wake Up Alarms",
-    where: "Mobile app · Expo",
+    where: "Mobile app · Expo · AlarmKit",
     copy: (
       <>
-        A free alarm app I made on my own. It asks for your name so it can
-        greet you in the morning, keeps it on your phone, and never touches
-        your location.
+        A free alarm app I built on my own. Its alarms run on Apple&apos;s
+        AlarmKit, so they go off like the built-in Clock alarms, even with
+        the app closed. To use AlarmKit from React Native, I wrote my own
+        library on top of it, and Wakey is built on that.
       </>
     ),
     links: [
