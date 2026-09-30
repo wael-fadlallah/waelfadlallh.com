@@ -739,6 +739,21 @@ svg {
   color: var(--text-muted);
 }
 
+.roles__heading--side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: clamp(80px, 10vw, 128px);
+  color: var(--text-secondary);
+}
+
+.roles__heading--side::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border-default);
+}
+
 .role {
   display: grid;
   grid-template-columns: 140px minmax(0, 0.9fr) minmax(0, 1.5fr);

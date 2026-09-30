@@ -82,8 +82,11 @@ const EARLIER: Role[] = [
       </>
     ),
   },
+];
+
+const SIDE: Role[] = [
   {
-    years: "On the side",
+    years: "Personal",
     title: "Wakey: Wake Up Alarms",
     where: "Mobile app · Expo · AlarmKit",
     copy: (
@@ -119,6 +122,34 @@ function Feature({ project }: { project: Project }) {
   );
 }
 
+function RoleList({ roles }: { roles: Role[] }) {
+  return (
+    <ol className="roles">
+      {roles.map((role) => (
+        <li key={role.title} className="role">
+          <span className="role__years">{role.years}</span>
+          <div className="role__main">
+            <h4 className="role__title">{role.title}</h4>
+            <p className="role__where">{role.where}</p>
+          </div>
+          <div className="role__body">
+            <p className="role__copy">{role.copy}</p>
+            {role.links && (
+              <p className="role__links">
+                {role.links.map((link) => (
+                  <a key={link.href} href={link.href}>
+                    {link.label} →
+                  </a>
+                ))}
+              </p>
+            )}
+          </div>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
 export function SelectedWork() {
   return (
     <section id="work" className="section">
@@ -150,30 +181,11 @@ export function SelectedWork() {
         </div>
       </div>
 
-      <h3 className="roles__heading">Before that, and on the side</h3>
-      <ol className="roles">
-        {EARLIER.map((role) => (
-          <li key={role.title} className="role">
-            <span className="role__years">{role.years}</span>
-            <div className="role__main">
-              <h4 className="role__title">{role.title}</h4>
-              <p className="role__where">{role.where}</p>
-            </div>
-            <div className="role__body">
-              <p className="role__copy">{role.copy}</p>
-              {role.links && (
-                <p className="role__links">
-                  {role.links.map((link) => (
-                    <a key={link.href} href={link.href}>
-                      {link.label} →
-                    </a>
-                  ))}
-                </p>
-              )}
-            </div>
-          </li>
-        ))}
-      </ol>
+      <h3 className="roles__heading">Before that</h3>
+      <RoleList roles={EARLIER} />
+
+      <h3 className="roles__heading roles__heading--side">On the side</h3>
+      <RoleList roles={SIDE} />
     </section>
   );
 }
