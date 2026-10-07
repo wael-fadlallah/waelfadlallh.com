@@ -3,8 +3,8 @@ import { ThemeToggle } from "./theme-toggle";
 
 const NAV_LINKS = [
   { href: "#work", label: "Work" },
-  { href: "#toolbox", label: "Toolbox" },
-  { href: "#recognition", label: "Recognition" },
+  { href: "#about", label: "About" },
+  { href: "#toolbox", label: "Tools" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -29,10 +29,6 @@ export function Header() {
 
       <div className="nav__actions">
         <ThemeToggle />
-        <a className="contact-pill" href="mailto:wael.fudlallah@gmail.com">
-          <span className="contact-pill__dot" aria-hidden="true" />
-          <span>Available</span>
-        </a>
       </div>
     </header>
   );
